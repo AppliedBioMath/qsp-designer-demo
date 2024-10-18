@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "project name"
+version = "0"
+description = ""
+authors = []
+classifiers = ["Private :: Do not Upload"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "~3.12"
+ipykernel = "~6.29"
+abm = { git = "https://github.com/AppliedBioMath/abm-python", tag = "v2.0.0b13" }
+
+# testing
+nbmake = "~1.5"
+pytest = "~8.1"
+plotnine = "^0.13.6"
+salib = "^1.5.1"
+scikit-learn = "^1.5.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,8 @@
+Workspace filename: one_compartment.qsp
+Solver duration (s): 0.00
+Database writing duration (s): 0.04
+Overall simulation duration (s): 0.01
+Min number gradient calls for unterminated individual: 103
+Max number gradient calls for unterminated individual: 103
+Median number gradient calls for unterminated individual: 103
+CSV Output writing duration (s): 0.14
